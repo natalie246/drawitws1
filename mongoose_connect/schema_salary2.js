@@ -14,7 +14,7 @@ var salarySchema2 = new schema2({
 	ninth_class: String,
 	upper_class: String
 
-}, {collection:'salary2'});
+}, {collection:'realResult'});
 
 exports.salarySchema2 = salarySchema2;
 

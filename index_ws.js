@@ -34,12 +34,36 @@ app.get('/aaa',function (req,res){
 	res.send("hello world!");
 });
 
+app.post('/realResult',function (req,res){ 
+	console.log("im in app.get");
+	app.set('json space',3);
+	add_User.realResult(function(results){
+		console.log("results: "+results);
+		res.json(results);
+	});
+});
 
+app.post('/usersAnswers',function (req,res){ 
+	console.log("im in app.get");
+	app.set('json space',3);
+	add_User.usersAnswers(function(results){
+		console.log("results: "+results);
+		res.json(results);
+	});
+});
 
 var port = process.env.PORT || 3000;
 app.listen(port); 
 console.log("listening on port " + port +"\n");
 
+
+// app.get('/girls',function (req,res){ 
+// 	app.set('json space',3);
+// 	add_User.updateGirls(function(girlList){
+// 		girls = girlList;
+// 		res.json(girls);
+// 	});
+// });
 
 
 // app.post('/answer2',function(req,res){

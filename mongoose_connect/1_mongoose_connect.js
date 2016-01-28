@@ -47,44 +47,82 @@ function answer1(newUser,callback){
                 });
                  callback("succses");   
 }; 
-    
 
-var answer2 = function(newUser,callback){ 
 
-  console.log("im in answer2 function");
+function usersAnswers(callback)
+{
+        var query = Classes.find();
+          query.exec(function(err,results)
+          {  
+            for(var i in results){
+              //console.log(JSON.stringify(results[i]));
+            }
+            callback(results);   
+          });
+}
 
-      var class_data = JSON.parse(newUser);
-            var newtable = new Classes2({
-             lower_class: class_data['lower_class'],
-             second_class: class_data['second_class'],
-             third_class: class_data['third_class'],
-             fourth_class: class_data['fourth_class'],
-             fifth_class: class_data['fifth_class'],
-             sixth_class: class_data['sixth_class'],
-             seventh_class: class_data['seventh_class'],
-             eighth_class: class_data['eighth_class'],
-             ninth_class:class_data['ninth_class'],
-             upper_class: class_data['upper_class'],
-            });
-
-    //console.log(newtable);
-
-    newtable.save(function (err, doc) {
-                      if(err){
-                          if(err.code == 11000){
-                              console.log('duplicate');
-                          }  
-                      }
-                      else{
-                          // console.log('doc',doc);
-                      }
-                });
-                callback("succses");   
-
-}; 
-
+function realResult(callback)
+{
+        var query = Classes2.find();
+          query.exec(function(err,results)
+          {  
+            for(var i in results){
+              //console.log(JSON.stringify(results[i]));
+            }
+            callback(results);   
+          });
+}
+   
 exports.answer1 = answer1;
-exports.answer2 = answer2;
+exports.realResult = realResult; 
+exports.usersAnswers = usersAnswers; 
+
+
+
+ // var userSchema = require('./schema_user').userSchema;
+// var User = mongoose.model('UserM', userSchema);
+
+// // var query = User.find();
+// // query.where(newUser.data.id);
+// // query.exec(function(err, user){
+// //   if(!user){   
+
+// var answer2 = function(newUser,callback){ 
+
+//   console.log("im in answer2 function");
+
+//       var class_data = JSON.parse(newUser);
+//             var newtable = new Classes2({
+//              lower_class: class_data['lower_class'],
+//              second_class: class_data['second_class'],
+//              third_class: class_data['third_class'],
+//              fourth_class: class_data['fourth_class'],
+//              fifth_class: class_data['fifth_class'],
+//              sixth_class: class_data['sixth_class'],
+//              seventh_class: class_data['seventh_class'],
+//              eighth_class: class_data['eighth_class'],
+//              ninth_class:class_data['ninth_class'],
+//              upper_class: class_data['upper_class'],
+//             });
+
+//     //console.log(newtable);
+
+//     newtable.save(function (err, doc) {
+//                       if(err){
+//                           if(err.code == 11000){
+//                               console.log('duplicate');
+//                           }  
+//                       }
+//                       else{
+//                           // console.log('doc',doc);
+//                       }
+//                 });
+//                 callback("succses");   
+
+// }; 
+
+
+//exports.answer2 = answer2;
 
 
 
