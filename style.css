@@ -1,0 +1,2248 @@
+body,html{
+  /*width:100%;*/
+  height:100vh;
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  font-family: 'Alef', sans-serif;
+}
+
+.clearfix{
+  opacity: 0.3;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+button:focus {outline:0;}
+
+
+#wrapper{
+  background-color: #FFF8C5;
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+    height: 70%
+}
+
+#sidebar1{
+  background-color:#8CD8F5;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 9%;
+  overflow-x:hidden;
+}
+
+#sidebar2{
+  background-color:#8BC5F4;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 17.1%;
+  overflow-x:hidden;
+}
+
+#sidebar3{
+  background-color:#64ADAC;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 25.2%;
+  overflow-x:hidden;
+}
+
+
+#sidebar4{
+  background-color:#42A298;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 33.3%;
+  overflow-x:hidden;
+}
+
+#sidebar5{
+  background-color:#42A37E;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 41.4%;
+  overflow-x:hidden;
+
+}
+
+#sidebar6{
+  background-color:#3B917A;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 49.5%;
+  overflow-x:hidden;
+
+}
+
+#sidebar7{
+  background-color:#38896F;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 57.6%;
+  overflow-x:hidden;
+
+}
+
+#sidebar8{
+  background-color:#368558;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 65.7%;
+    overflow-x:hidden;
+
+}
+
+#sidebar9{
+  background-color:#29654B;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 73.8%;
+    overflow-x:hidden;
+
+}
+
+#sidebar10{
+   background-color:#296458;
+   width: 8%;
+   float: left;
+   height: 1%;
+   position: absolute;
+  bottom: 18%;
+   left: 81.9%;
+     overflow-x:hidden;
+
+}
+
+#dragbar12{
+   background-color:#8CD8F5;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar22{
+   background-color:#8BC5F4;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar32{
+   background-color:#64ADAC;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar42{
+   background-color:#42A298;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar52{
+   background-color:#42A37E;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar62{
+   background-color:#3B917A;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar72{
+   background-color:#38896F;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar82{
+   background-color:#368558;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar92{
+   background-color:#29654B;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar102{
+   background-color:#296458;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar1{
+   background-color:#8CD8F5;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar2{
+  background-color:#8BC5F4;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar3{
+  background-color:#64ADAC;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar4{
+  background-color:#42A298;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar5{
+  background-color:#42A37E;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar6{
+  background-color:#3B917A;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+
+#dragbar7{
+  background-color:#38896F;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar8{
+  background-color:#368558;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+
+#dragbar9{
+  background-color:#29654B;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#dragbar10{
+   background-color:#296458;
+   height:100%;
+   float: right;
+   width: 100%;
+   cursor: row-resize;
+}
+
+/*
+#sidebar1{
+  background-color:#8CD8F5;
+  width: 8%;
+  float: left;
+  height: 1%;
+  position: absolute;
+  bottom: 18%;
+  left: 9%;
+  overflow-x:hidden;
+}
+
+#sidebar2{
+  background-color:#8BC5F4;*/
+
+#ghostbar1{
+    width:8%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 9%;
+  }
+
+  #ghostbar2{
+    width:8%;
+    height: 1px;
+    background-color:#8BC5F4;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 17.1%;
+  }
+
+  #ghostbar3{
+    width:8%;
+    height: 1px;
+    background-color:#64ADAC;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 25.2%;
+  }
+
+  #ghostbar4{
+    width:8%;
+    height: 1px;
+    background-color:#42A298;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 33.3%;
+  }
+
+  #ghostbar5{
+    width:8%;
+    height: 1px;
+  background-color:#42A37E;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+  left: 41.4%;
+  }
+
+
+#ghostbar6{
+    width:8%;
+    height: 1px;
+  background-color:#3B917A;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+  left: 49.5%;
+  }
+
+  #ghostbar7{
+    width:8%;
+    height: 1px;
+  background-color:#38896F;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+  left: 57.6%;
+  }
+
+  #ghostbar8{
+    width:8%;
+    height: 1px;
+  background-color:#368558;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+  left: 65.7%;
+  }
+
+  #ghostbar9{
+    width:8%;
+    height: 1px;
+  background-color:#29654B;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+  left: 73.8%;
+  }
+
+  #ghostbar10{
+    width:8%;
+    height: 1px;
+   background-color:#296458;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+   left: 81.9%;
+  }
+
+  #new_ghostbar1{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 21.1%;
+  }
+
+
+  #new_ghostbar2{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 28.2%;
+  }
+
+
+  #new_ghostbar3{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 35.3%;
+  }
+
+
+  #new_ghostbar4{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 42.4%;
+  }
+
+
+  #new_ghostbar5{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 49.5%;
+  }
+
+
+  #new_ghostbar6{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 56.6%;
+  }
+
+
+  #new_ghostbar7{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 63.7%;
+  }
+
+
+  #new_ghostbar8{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 70.8%;
+  }
+
+
+  #new_ghostbar9{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 77.9%;
+  }
+
+
+  #new_ghostbar10{
+    width:7%;
+    height: 1px;
+    background-color:#8CD8F5;
+    opacity:0.5;
+    position:absolute;
+    cursor: row-resize;
+    z-index:999;
+    left: 85%;
+  }
+
+
+#text1{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 12.6%;
+  bottom: 19%;
+}
+#text2{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 20.7%;
+  bottom: 19%;
+}
+#text3{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 28.8%;
+  bottom: 19%;
+}
+#text4{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 36.9%;
+  bottom: 19%;
+}
+#text5{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 44.9%;
+  bottom: 19%;
+}
+#text6{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 53%;
+  bottom: 19%;
+}
+#text7{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 61%;
+  bottom: 19%;
+}
+
+  #text8{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 69%;
+  bottom: 19%;
+}
+#text9{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 77%;
+  bottom: 19%;
+}
+#text10{
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  position: absolute;
+  left: 85%;
+  bottom: 19%;
+}
+
+.refreshbutton{
+  background-color: #FFF8C5;
+  border:0;
+  padding: 0;
+  position: absolute;
+  float: left;
+  left: 44%;
+  bottom: 75px;
+
+}
+
+#r1{
+    position: absolute;
+ height: 20px;
+ width: 20px; 
+}
+
+
+#r2{
+  display: none;
+    position: absolute;
+ height: 20px;
+ width: 20px; 
+}
+
+.viconbutton{
+  background-color: #FFF8C5;
+  border:0;
+  padding: 0;
+  border:0;
+  position: absolute;
+  bottom: 75px;
+  left: 50%;
+}
+
+#v1{
+  position: absolute;
+  height: 16px;
+  width: 22px;
+}
+
+
+#v2{
+  display: none;
+position: absolute;
+  height: 16px;
+  width: 22px;
+  }
+
+
+/*
+.Clogo,.Slogo,.facebook,.msg{
+position: absolute;
+bottom: 5%;
+}
+
+.Slogo{
+left: 5%;
+}
+
+.Clogo{
+  left: 15%;
+}
+
+.facebook{
+  right: 5%;
+}
+
+.msg{
+  right: 8%;
+}
+*/
+
+
+
+.question{
+  background-color: #FFF8C5;
+  height: 13.6%;
+  width: 29%;
+  position: absolute;
+  top: 36.8%;
+  left: 33.5%;
+  text-align: center;
+  /* padding-top: 32px; */
+  font-family: 'Alef', sans-serif;
+  font-size: 120%;
+  color: #4A834E;
+  }
+
+#precentLeft{
+  width: 3px;
+  height: 26px;
+  position: absolute;
+  top: 9.7%;
+  left: 42%;
+  background-color: #59985d;
+  opacity: 0.01;
+}
+
+#precent1 {
+  font-family: 'Alef', sans-serif;
+  font-size: 100%;
+  position: absolute;
+  top: 43px;
+  left: 47%;
+  color: #FFF8C5;
+}
+
+#precent2 {
+  font-family: 'Alef', sans-serif;
+  font-size: 100%;
+  position: absolute;
+  top: 43px;
+  left: 50%;
+  color: #FFF8C5;
+}
+
+
+.topbar{
+  width: 280px;
+  height: 30px;
+  position: absolute;
+  top: 41px;
+  left: 39.6%;
+opacity: 0.3;
+}
+
+
+
+/*-----------guess2---------------------------------*/
+
+#guess2wrapper{
+  background-color:#FFF8C5;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*#guess2wrapper .graph{
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 15%;
+  left: 0%;
+
+}
+*/
+
+
+#guess2wrapper #sidebar1{
+  background-color:#8CD8F5;
+  width:8%;
+  float: left;
+  height: 1%;
+  border-right: 1px solid white;
+   position: absolute;
+   bottom: 20%;
+   left: 9%;
+}
+  
+  
+
+#guess2wrapper #sidebar2{
+  background-color:#8BC5F4;
+  width: 8%;
+  float: left;
+  height: 1%;
+  border-right: 1px solid white;
+  position: absolute;
+  bottom: 20%;
+  left: 19%;
+   
+}
+
+#guess2wrapper #sidebar3{
+  background-color:#64ADAC;
+  width:8%;
+  float: left;
+  height: 1%;
+  border-right: 1px solid white;
+  position: absolute;
+  bottom: 20%;
+  left: 29%;
+
+}
+
+
+#guess2wrapper #sidebar4{
+  background-color:#42A298;
+  width: 8%;
+  float: left;
+  height: 1%;
+  border-right: 1px solid white;
+  position: absolute;
+  bottom: 20%;
+  left: 29%;
+
+}
+
+#guess2wrapper #sidebar5{
+  background-color:#42A37E;
+  width: 10%;
+  float: left;
+  height: 20px;
+  border-right: 1px solid white;
+
+}
+
+#guess2wrapper #sidebar6{
+  background-color:#3B917A;
+  width: 10%;
+  float: left;
+  height: 20px;
+  border-right: 1px solid white;
+}
+
+#guess2wrapper #sidebar7{
+  background-color:#38896F;
+  width: 10%;
+  float: left;
+  height: 20px;
+  border-right: 1px solid white;
+
+}
+
+#guess2wrapper #sidebar8{
+  background-color:#368558;
+  width: 10%;
+  float: left;
+  height: 20px;
+  border-right: 1px solid white;
+
+}
+
+#guess2wrapper #sidebar9{
+  background-color:#29654B;
+  width: 10%;
+  float: left;
+  height: 20px;
+  border-right: 1px solid white;
+}
+
+#guess2wrapper #sidebar10{
+   background-color:#296458;
+   width: 10%;
+   float: left;
+   height: 20px;
+}
+.social{
+    opacity: 0.3;
+  position: absolute;
+  top: 21px;
+  left: 0px;
+}
+.social ul li{
+  list-style-type: none;
+  float: left;
+  padding-top: 10px;
+  margin-left: 20px;
+  }
+.social ul li img{
+  height: 16px;
+}
+.title1{
+  width: 40%;
+  position: absolute;
+  top: 16%;
+  left: 28%;
+}
+
+.start{
+    color: #4A834E;
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 61%;
+    left: 47%;
+    font-size: 122%;
+
+}
+
+.start:hover {
+    text-decoration: none;
+    color: #4A834E;
+}
+
+.arrow{
+  height: 16px;
+  width: 8px;
+  position: absolute;
+  left: -38.4%;
+  top: 16.2%;
+}
+
+.top{
+  opacity: 0.3;
+ height: 10%;
+ width: 8%;
+ position: absolute;
+ left: 81.9%;
+ bottom: 7.7%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.bottom{
+    opacity: 0.3;
+ height: 10%;
+ width: 8%;
+ position: absolute;
+ left: 9%;
+ bottom: 7.7%;
+}
+
+.money {
+  width: 100%;
+  height: 40%;
+  position:absolute;
+  bottom:0%;
+  left:0%;
+}
+
+.title2{
+
+  color:#fff799;
+  font-family: 'Alef', sans-serif;
+  font-size: 140%;
+  position: absolute;
+  top:90px;
+  left: 41%;
+
+
+}
+
+#new_sidebar1{
+    position: absolute;
+    left: 5.4%;
+    background-color: #8CD8F5;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar2{
+    position: absolute;
+    left: 5.4%;
+    background-color:#8BC5F4;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar3{
+    position: absolute;
+    left: 5.4%;
+    background-color:#64ADAC;
+    bottom: 0%;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar4{
+    position: absolute;
+    left: 5.4%;
+    background-color:#42A298;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar5{
+    position: absolute;
+    left: 5.4%;
+    background-color:#42A37E;
+    bottom: 0%;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar6{
+    position: absolute;
+    left: 5.4%;
+    background-color:#3B917A;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar7{
+    position: absolute;
+    left: 5.4%;
+    background-color:#38896F;
+    bottom: 0%;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar8{
+    position: absolute;
+    left: 5.4%;
+    background-color:#368558;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar9{
+    position: absolute;
+    left: 5.4%;
+    background-color:#29654B;
+    bottom: 0%;
+    height: 0;
+    width:4%;
+}
+
+#new_sidebar10{
+    position: absolute;
+    left: 5.4%;
+    background-color:#296458;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+
+
+#new1_sidebar1{
+    position: absolute;
+    left: 10.4%;
+    background-color: #8CD8F5;
+    bottom: 18%;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar2{
+    position: absolute;
+    left: 10.4%;
+    background-color:#8BC5F4;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar3{
+    position: absolute;
+    left: 10.4%;
+    background-color:#64ADAC;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar4{
+    position: absolute;
+    left: 10.4%;
+    background-color:#42A298;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar5{
+    position: absolute;
+    left: 10.4%;
+    background-color:#42A37E; 
+    height: 0;
+    width:4%;
+  }
+
+
+#new1_sidebar6{
+    position: absolute;
+    left: 10.4%;
+    background-color:#3B917A;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar7{
+    position: absolute;
+    left: 10.4%;
+    background-color:#38896F;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar8{
+    position: absolute;
+    left: 10.4%;
+    background-color:#368558;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar9{
+    position: absolute;
+    left: 10.4%;
+    background-color:#29654B;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+#new1_sidebar10{
+    position: absolute;
+    left: 10.4%;
+    background-color:#296458;
+    bottom: 0;
+    height: 0;
+    width:4%;
+}
+
+
+#new2_sidebar1{
+    position: absolute;
+    left: 15.4%;
+    background-color: #8CD8F5;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar2{
+    position: absolute;
+    left: 15.4%;
+    background-color: #8BC5F4;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar3{
+    position: absolute;
+    left: 15.4%;
+    background-color: #64ADAC;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar4{
+    position: absolute;
+    left: 15.4%;
+    background-color: #42A298;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar5{
+    position: absolute;
+    left: 15.4%;
+    background-color: #42A37E;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar6{
+    position: absolute;
+    left: 15.4%;
+    background-color: #3B917A;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar7{
+    position: absolute;
+    left: 15.4%;
+    background-color: #38896F;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar8{
+    position: absolute;
+    left: 15.4%;
+    background-color: #368558;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar9{
+    position: absolute;
+    left: 15.4%;
+    background-color: #29654B;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+#new2_sidebar10{
+    position: absolute;
+    left: 15.4%;
+    background-color: #296458;
+    bottom: 18%;
+    height: 0;
+    width:7%;
+}
+
+.yetNot100{
+    position: absolute;
+    left: 58%;
+    bottom: 7%;
+    height: 58px;
+    width:0;
+}
+
+.over100{
+  background-image:url('images/alert2.png');
+  position: absolute;
+  display: none;
+  left: 45%;
+  top: 16%;
+  height: 22px;
+  width: 140px;
+  font-size: 80%;
+  text-align: center;
+  padding-top: 4px;
+  color: #204421;
+}
+
+
+.myWill, .realGuess, .realR{
+  width: 70px;
+  position: absolute;
+  bottom: 8%;
+  border-left: 10px;
+  text-align: center;
+  font-size: 80%;
+  font-family: 'Alef', sans-serif;
+}
+
+.myWill{
+  display: none;
+  left: 4.7%;
+}
+.realGuess{
+  display: none;
+  left: 9.8%;
+}
+.realR{
+  display: none;
+  left: 16%;
+  font-weight: bold;
+}
+
+.instruction {
+  background-image: url('images/msg1.png');
+  font-family: 'Alef', sans-serif;
+  display: none;
+  background-color: #FFF8C5;
+  height: 150px;
+  width: 250px;
+  position: absolute;
+  top: 28%;
+  left: 41%;
+  padding-top: 12px;
+  text-align: center;
+  color: #204421;
+  font-size: 68%;
+}
+
+.arrow2{
+  position: absolute;
+  top:120px;
+  left:104px;
+}
+
+/*.instruction img{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+   top: 25%;
+  left: 39%;
+}*/
+
+/*.theQuestion{
+    display: none;
+    position: absolute;
+    left:35%;
+    top: 30%;
+    background-color: #FFF8C5;
+    border:0;
+    padding: 0;
+}*/
+
+.theQuestionButton{
+    background-color: #FFF8C5;
+    border:0;
+    padding: 0;
+    display: none;
+    background-image: url('images/money_stock.png');
+    height: 150px;
+    width: 445px;
+    position: absolute;
+    top: 34%;
+    left: 30%;
+}
+
+
+    .suitcase{
+    background-color: #FFF8C5;
+    border:0;
+    padding: 0;
+/*    display: none;
+*/    background-image: url('images/suitcase.png');
+    height: 174px;
+    width: 500px;
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    }
+
+
+.suitcase>p {
+    padding-top: 23px;
+    padding-left: 255px;
+    padding-right: 62px;
+    font-size: 90%;
+    font-family: 'Alef', sans-serif;
+    color: #1a402f;
+    text-align: center;
+}
+
+/*    .suitcase p img{
+      height: 16px;
+      width: 8px;
+    }*/
+
+/*.theQuestion{
+    
+    position: absolute;
+    left:35%;
+    top: 30%;
+    height: 125px;
+    width:370px;
+}*/
+
+.question2 {
+    font-family: 'Alef', sans-serif;
+    font-size: 117%;
+    width: 19%;
+    position: absolute;
+    left: 51.5%;
+    color: #1a402f;
+    top: 31%;
+    text-align: center;
+}
+
+.arrowTheQuestionButton{
+left: 32%;
+    top: 107%;
+    position: absolute;
+    height: 16px;
+    width: 8px;
+}
+    
+
+.theAnswer{
+    display: none;
+    position: absolute;
+    left:35%;
+    top: 30%;
+    height: 125px;
+    width:370px;
+    background-color: #FFF8C5;
+    border:0;
+    padding: 0;
+}
+
+.moneyc3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 18.7%;
+    right: 26.5%;
+    display: none;
+
+}
+
+/*
+.moneyc3{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 20%;
+  right: 27%;
+  display: none;
+}*/
+
+.clearfix ::-webkit-scrollbar {
+    display: none;
+}
+
+    .a{
+
+      height:100px; width:100px; background-color:pink;margin-top: 100px;
+    }
+
+    .ui-icon ui-icon-loading spin h1{
+      color: white;
+    }
+
+
+
+    .question1 {
+      font-size: 87%;
+      width: 16%;
+      position: absolute;
+      left:49%;
+      top:34%;
+      text-align: center;
+      font-family: 'Alef', sans-serif;
+      color:  #204421;
+    }
+
+    .divideArrow{
+      position: absolute;
+      left:55%;
+      top: 48.5%;
+      color:  #204421;
+    }
+
+
+.toptext{
+      position: absolute;
+      font-size: 87%;
+      right:11.8%;
+      bottom:9%;
+      width: 5%;
+      text-align: center;
+       opacity: 0.3;
+}
+
+.bottomtext{
+      position: absolute;
+      font-size: 87%;
+      left:10.5%;
+      bottom:9%;
+      width: 5%;
+      text-align: center;
+       opacity: 0.3;
+}
+
+
+.myDivide{
+      opacity: 0.3;
+      position: absolute;
+      font-size: 84%;
+      right:52px;
+      top:46px;
+      color: #4E7348;
+}
+
+.whereIsTheMoney{
+  display: none;
+      opacity: 0.3;
+      position: absolute;
+      font-size: 84%;
+      right:52px;
+      top:46px;
+      color: #4E7348;
+
+}
+
+.theRealDivide{
+    display: none;
+      opacity: 0.3;
+      position: absolute;
+      font-size: 84%;
+      right:52px;
+      top:46px;
+      color: #4E7348;
+      text-align: right;
+}
+
+
+        .ribbon_side{
+          display: none;
+          background-image: url('images/ribbon_side.png');
+          height: 131px;
+          width: 280px;
+          position: absolute;
+          top: 34%;
+          right: 0;
+        }
+
+        .ribbon_side>p {
+          padding-top: 0px;
+          padding-left: 91px;
+          padding-right: 24px;
+          font-size: 76%;
+          font-family: 'Alef', sans-serif;
+          color: #1a402f;
+          text-align: right;
+        }
+
+
+.finaltext1{
+  display: none;
+    font-family: 'Alef', sans-serif;
+    font-size: 75%;
+    text-align: center;
+    position: absolute;
+    width: 33%;
+    top:25%;
+    left:38%; 
+}
+
+.finaltext2{
+   display: none;
+  /*font-weight: bold;*/
+      font-family: 'Alef', sans-serif;
+    font-size: 78%;
+    text-align: center;
+    position: absolute;
+        width: 30%;
+    top:50%;
+    left:40%;
+
+}
+
+.finaltext3{
+   display: none;
+      font-family: 'Alef', sans-serif;
+    font-size: 80%;
+    text-align: center;
+    position: absolute;
+        width: 30%;
+    top:55%;
+    left:40%;
+
+}
+
+.arrowFinalText3{
+height: 16px;
+width: 8px;
+
+}
+
+
+.theQuestionButton>p {
+    padding-top: 23px;
+    padding-left: 208px;
+    padding-right: 62px;
+    font-size: 80%;
+    font-family: 'Alef', sans-serif;
+    color: #1a402f;
+    text-align: center;
+}
+
+.arrow3{
+    position: absolute;
+    top: 111px;
+    right: 153px;
+}
+
+.arrow4{  
+    position: absolute;
+    top: 121px;
+    right: 172px;
+}
+
+.arrow5{  
+    position: absolute;
+    top: 92px;
+    right: 164px;
+}
+
+
+
+/*--------hover---------
+-----------------------*/
+
+#text3:hover,#text10:hover{
+  color: #f3b230;
+}
+
+#sidebar3:hover + #info1{
+  display: none;
+}
+
+
+#text3:hover + #info1{
+  display: none;
+}
+
+#sidebar10:hover + #info2{
+  display: none;
+}
+
+
+#text10:hover + #info2{
+  display: none;
+}
+
+
+#info1{
+  display: none;
+  position: absolute;
+  top: 62%;
+  left: 33%;
+}
+
+#info2{
+  display: none;
+  position: absolute;
+  top: 42%;
+  right: 25%;
+}
+
+.popuppage3{
+  top: 20%;
+  left: 9.7%;
+  position: absolute;
+  height: 70px;
+  width: 150px;
+}
+
+.popuppage3_data3{
+  position: absolute;
+  width: 150px;
+  top: 20%;
+  left: 9.8%;
+  color: #204421;
+  font-family: 'Alef', sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+.popuppage10{
+  top: 20%;
+  left: 9.7%;
+  position: absolute;
+  height: 70px;
+  width: 150px;
+}
+
+.popuppage3_data10{
+  position: absolute;
+  width: 150px;
+  top: 20%;
+  left: 9.8%;
+  color: #204421;
+  font-family: 'Alef', sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+
+/*----------hover end--------------*/
+
+
+/*/////////// media ////////////*/
+
+
+@media (max-width: 600px) {
+
+
+.moneyc3{
+
+    height: 85px;
+    width: 70px;
+    position: absolute;
+    bottom: 18.7%;
+    right: 25.5%;
+    display: none;
+
+}
+
+        /*index page*/
+        .question{
+          width: 50%;
+          position: absolute;
+          top: 24%;
+          left: 20%;
+          text-align: center;
+          padding-top: 32px;
+          font-family: 'Alef', sans-serif;
+          font-size: 90%;
+          color: #4A834E;
+        }
+
+        .topbar{
+          width: 45%;
+          left: 26.6%;
+          top:60px;
+        }
+
+        .social{
+          position: absolute;
+          top: -2%;
+          left: -5%;
+        }
+        .social ul li{
+         margin-left: 8px;
+        }
+
+        .social ul li img{
+          height: 10px;
+        }
+
+        .title1{
+          width: 40%;
+          top: 15%;
+          left: 26%;
+        }
+
+        .start{
+        top: 48.3%;
+        left: 42%;
+        }
+        /*index page end*/
+
+        /*guess page*/
+
+
+        #precentLeft{
+          left: 31.6%;
+          opacity: 0.01;
+        }
+
+       #precent1 {
+          font-family: 'Alef', sans-serif;
+          font-size: 100%;
+          position: absolute;
+          top: 62px;
+          left: 40%;
+          color: #FFF8C5;
+        }
+
+        #precent2 {
+          font-family: 'Alef', sans-serif;
+          font-size: 100%;
+          position: absolute;
+          top: 62px;
+          left: 48%;
+          color: #FFF8C5;
+        }
+
+        .top {
+          height: 5%;
+          bottom: 12.7%;
+        }
+
+
+        .bottom {
+          height: 5%;
+          width: 8%;
+          position: absolute;
+          left: 9%;
+          bottom: 12.7%;
+        }
+
+        .viconbutton {
+          height: 28px;
+          width: 20px;
+          left: 58%;
+        }
+
+        .refreshbutton {
+          height: 28px;
+          width: 10px;
+          left: 42%;
+        }
+/*
+        .moneyc3 {
+          width: 69px;
+          right: 25%;
+        }*/
+
+
+        .question1 {
+          font-size: 70%;
+          width: 32%;
+          position: absolute;
+          left:46%;
+          top:33%;
+          text-align: center;
+        }
+
+        .divideArrow{
+          position: absolute;
+          font-size: 80%;
+          left:59%;
+          top:43%;
+        }
+
+        .toptext{
+          font-size: 50%;
+          text-align: center;
+          bottom:12.5%;
+          opacity: 0.3;
+        }
+
+        .bottomtext{
+          font-size: 50%;
+          text-align: center;
+          bottom:12.5%;
+          opacity: 0.3;
+        }
+
+        .myDivide{
+          opacity: 0.3;
+          position: absolute;
+          font-size: 70%;
+          right:5%;
+          top: 3%;
+        }
+
+        .over100{
+          position: absolute;
+          display: none;
+          left: 32.5%;
+          top: 13%;
+        }
+        /*end guess page*/
+
+        .instruction {
+          background-image: url('images/msg1.png');
+          font-family: 'Alef', sans-serif;
+          display: none;
+          background-color: #FFF8C5;
+          height: 150px;
+          width: 250px;
+          position: absolute;
+          top: 28%;
+          left: 29%;
+          padding-top: 12px;
+          text-align: center;
+          color: #204421;
+          font-size: 68%;
+        }
+
+        .ribbon_side{
+          display: none;
+          background-image: url('images/ribbon_sideM.png');
+          height:94px;
+          width: 200px;
+          top: 34%;
+          right: 0;
+        }
+
+        .ribbon_side>p {
+            padding-top: 0px;
+            padding-left: 31px;
+            padding-right: 11px;
+            font-size: 60%;
+            font-family: 'Alef', sans-serif;
+            color: #1a402f;
+            text-align: right;
+        }
+
+
+          .theQuestionButton{
+          background-color: #FFF8C5;
+          border:0;
+          padding: 0;
+          display: none;
+          background-image: url('images/money_stockM.png');
+          height: 100px;
+          width: 260px;
+          position: absolute;
+          top: 34%;
+          left: 20%;
+        }
+
+        .theQuestionButton>p {
+          padding-top: 5px;
+          padding-left: 114px;
+          padding-right: 14px;
+          font-size: 68%;
+          font-family: 'Alef', sans-serif;
+          color: #1a402f;
+          text-align: center;
+        }
+
+        .arrow3 {
+          position: absolute;
+          top: 78px;
+          left: 157px;
+          height: 7px;
+          width: 5px;
+
+        }
+
+        .suitcase{
+          background-color: #FFF8C5;
+          border:0;
+          padding: 0;
+          background-image: url('images/suitcaseMobile.png');
+          height: 87px;
+          width: 250px;
+          position: absolute;
+          top: 31%;
+          left: 19%;
+        }
+
+
+        .suitcase>p {
+
+        padding-top: 7px;
+        padding-left: 117px;
+        padding-right: 20px;
+        font-size: 57%;
+        font-family: 'Alef', sans-serif;
+        color: #1a402f;
+        text-align: center;
+        }
+
+
+
+        .arrow4{  
+
+          position: absolute;
+          top: 66.5px;
+          right: 89px;
+          width: 5px;
+          height: 7px;
+        }
+
+        .arrow5{  
+          position: absolute;
+          top: 66px;
+          right: 94px;
+          width: 5px;
+          height: 7px;
+        }
+
+              .myWill, .realGuess, .realR{
+                width: 34px;
+                position: absolute;
+                bottom: 10%;
+                border-left: 10px;
+                text-align: center;
+                font-size: 60%;
+                font-family: 'Alef', sans-serif;
+              }
+
+              .myWill{
+                display: none;
+                left: 2.4%;
+              }
+              .realGuess{
+                display: none;
+                left: 9%;
+              }
+              .realR{
+                display: none;
+                left: 16.4%;
+                bottom: 85px;
+                font-weight: bold;
+              }
+
+
+
+}
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+
+.moneyc3{
+    height: 85px;
+    width: 70px;
+    position: absolute;
+    bottom: 18.7%;
+    right: 25.5%;
+    display: none;
+
+}
+
+
+        /*index page*/
+
+      .over100{
+        position: absolute;
+        display: none;
+        left: 37%;
+        top: 19%;
+      }
+
+.toptext{
+      font-size: 75%;
+      text-align: center;
+      bottom:10%;
+       opacity: 0.3;
+}
+
+.bottomtext{
+      font-size: 75%;
+      text-align: center;
+      bottom:10%;
+       opacity: 0.3;
+}
+
+
+.topbar{
+    left: 30%;
+     top:75px;
+          }
+
+#precent1 {
+  font-family: 'Alef', sans-serif;
+  font-size: 100%;
+  position: absolute;
+  top: 75px;
+  left: 45%;
+  color: #FFF8C5;
+}
+
+#precent2 {
+  font-family: 'Alef', sans-serif;
+  font-size: 100%;
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  color: #FFF8C5;
+}
+
+         .question{
+          width: 36%;
+          position: absolute;
+          top: 28.8%;
+          left: 31%;
+          text-align: center;
+          padding-top: 32px;
+          font-family: 'Alef', sans-serif;
+          font-size: 102%;
+          color: #4A834E;
+          }
+
+
+        .title1{
+        width: 42%;
+        left: 28%;
+        }
+        .social{
+          position: absolute;
+          top: 22px;
+          left: -10px;
+        }
+        .social ul li{
+          margin-left: 12px;
+          }
+
+        .social ul li img{
+          height: 14px;
+        }
+
+        .start{
+            top: 54.3%;
+            left: 48%;
+        }
+
+              .question1 {
+                font-size: 70%;
+                width: 18%;
+                position: absolute;
+                left:51%;
+                top:34%;
+                text-align: center;
+
+              }
+
+              .divideArrow{
+                position: absolute;
+                font-size: 85%;
+                left:58%;
+                top: 46%;
+                width: 10%;
+              }
+
+              #precentLeft{
+                left: 34%;
+                opacity: 0.01;
+              }
+
+
+            .instruction {
+                background-image: url('images/msg1.png');
+                font-family: 'Alef', sans-serif;
+                display: none;
+                background-color: #FFF8C5;
+                height: 150px;
+                width: 250px;
+                position: absolute;
+                top: 28%;
+                left: 33%;
+                padding-top: 12px;
+                text-align: center;
+                color: #204421;
+                font-size: 68%;
+            }
+
+            .theQuestionButton{
+                background-color: #FFF8C5;
+                border:0;
+                padding: 0;
+                display: none;
+                background-image: url('images/money_stock.png');
+                height: 150px;
+                width: 445px;
+                position: absolute;
+                top: 34%;
+                left: 30%;
+            }
+
+
+            .theQuestionButton{
+                background-color: #FFF8C5;
+                border:0;
+                padding: 0;
+                display: none;
+                background-image: url('images/money_stockT.png');
+                height: 100px;
+                width: 297px;
+                position: absolute;
+                top: 34%;
+                left: 27%;
+            }
+
+            .theQuestionButton>p {
+                padding-top: 5px;
+                padding-left: 134px;
+                padding-right: 32px;
+                font-size: 68%;
+                font-family: 'Alef', sans-serif;
+                color: #1a402f;
+                text-align: center;
+            }
+
+                    /*----------suitcase----------*/
+
+
+          .suitcase{
+            background-image: url('images/suitcaseT.png');
+            height: 140.2px;
+            width: 400px;
+            top: 30%;
+            left: 23%;
+          }
+
+
+          .suitcase>p {
+              padding-top: 15px;
+              padding-left: 187px;
+              padding-right: 39px;
+              font-size: 82%;
+          }
+
+          .arrow4 {
+            top: 103.2px;
+            left: 253px;
+          }
+
+        /*----------suitcase end----------*/
+
+          .arrow3 {
+            top: 111px;
+            right: 153px;
+          }
+
+          .arrow5 {
+
+            top: 62.2px;
+            left: 178px;
+          }
+
+                .myWill, .realGuess, .realR{
+
+                width: 45px;
+                position: absolute;
+                bottom: 8%;
+                text-align: right;
+                font-size: 65%;
+                font-family: 'Alef', sans-serif;
+
+              }
+
+                .myWill{
+                  display: none;
+                  left: 1.7%;
+                }
+                .realGuess{
+                  display: none;
+                  left: 9.8%;
+                }
+                .realR{
+                  display: none;
+                  left: 17%;
+                  bottom: 40px;
+                  font-weight: bold;
+                }
+
+}
+
+
+
+
+

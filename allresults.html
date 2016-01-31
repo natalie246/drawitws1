@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+      <!-- user:drawIt pass:dbpass-->
+    <meta charset="utf-8">
+    <title>Draw It Yourself</title>
+
+     <meta http-equiv= "Content-Type" content="text/html; charset=utf-8">
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+   <!--  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link href='https://fonts.googleapis.com/css?family=Alef&subset=hebrew,latin' rel='stylesheet' type='text/css'>
+    <!-- // <script src="scripts.js"></script> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <!-- style files -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+
+    <!-- js files -->
+    <script src="js/scripts.js"></script>
+    <script src="js/dragging.js"></script>
+
+</head>
+<body>
+    <div id="allresultswrapper">
+
+     <div class="sidetext">  התפלגות חלוקת ההכנסות האמיתית<br>מקור: משרד האוצר, 2014</div>
+
+<!--     <div class="all">
+        <div class="myWish10"></div>
+        <div class="myWish9"></div>
+        <div class="myWish8"></div>
+        <div class="myWish7"></div>
+        <div class="myWish6"></div>
+        <div class="myWish5"></div>
+        <div class="myWish4"></div>
+        <div class="myWish3"></div>
+        <div class="myWish2"></div>
+        <div class="myWish1"></div>
+    </div>
+
+    <div class="all2">
+        <div class="myReal10"></div>
+        <div class="myReal9"></div>
+        <div class="myReal8"></div>
+        <div class="myReal7"></div>
+        <div class="myReal6"></div>
+        <div class="myReal5"></div>
+        <div class="myReal4"></div>
+        <div class="myReal3"></div>
+        <div class="myReal2"></div>
+        <div class="myReal1"></div>
+    </div>
+
+    <div class="all3">
+        <div class="realResult10"></div>
+        <div class="realResult9"></div>
+        <div class="realResult8"></div>
+        <div class="realResult7"></div>
+        <div class="realResult6"></div>
+        <div class="realResult5"></div>
+        <div class="realResult4"></div>
+        <div class="realResult3"></div>
+        <div class="realResult2"></div>
+        <div class="realResult1"></div>
+    </div> -->
+<!-- 
+    <p class="myWill">החלוקה לפי רצוני</p>
+    <p class="realGuess">לפי דעתי בפועל</p> -->
+  <!--   <p class="realR">החלוקה האמיתית</p>
+ -->
+    <div class="scroll1">
+        
+        <div class="all4">
+            <div class="r110"></div>
+            <div class="r19"></div>
+            <div class="r18"></div>
+            <div class="r17"></div>
+            <div class="r16"></div>
+            <div class="r15"></div>
+            <div class="r14"></div>
+            <div class="r13"></div>
+            <div class="r12"></div>
+            <div class="r11"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r210"></div>
+            <div class="r29"></div>
+            <div class="r28"></div>
+            <div class="r27"></div>
+            <div class="r26"></div>
+            <div class="r25"></div>
+            <div class="r24"></div>
+            <div class="r23"></div>
+            <div class="r22"></div>
+            <div class="r21"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r310"></div>
+            <div class="r39"></div>
+            <div class="r38"></div>
+            <div class="r37"></div>
+            <div class="r36"></div>
+            <div class="r35"></div>
+            <div class="r34"></div>
+            <div class="r33"></div>
+            <div class="r32"></div>
+            <div class="r31"></div>
+        </div>
+
+
+        <div class="all4">
+            <div class="r410"></div>
+            <div class="r49"></div>
+            <div class="r48"></div>
+            <div class="r47"></div>
+            <div class="r46"></div>
+            <div class="r45"></div>
+            <div class="r44"></div>
+            <div class="r43"></div>
+            <div class="r42"></div>
+            <div class="r41"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r510"></div>
+            <div class="r59"></div>
+            <div class="r58"></div>
+            <div class="r57"></div>
+            <div class="r56"></div>
+            <div class="r55"></div>
+            <div class="r54"></div>
+            <div class="r53"></div>
+            <div class="r52"></div>
+            <div class="r51"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r610"></div>
+            <div class="r69"></div>
+            <div class="r68"></div>
+            <div class="r67"></div>
+            <div class="r66"></div>
+            <div class="r65"></div>
+            <div class="r64"></div>
+            <div class="r63"></div>
+            <div class="r62"></div>
+            <div class="r61"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r710"></div>
+            <div class="r79"></div>
+            <div class="r78"></div>
+            <div class="r77"></div>
+            <div class="r76"></div>
+            <div class="r75"></div>
+            <div class="r74"></div>
+            <div class="r73"></div>
+            <div class="r72"></div>
+            <div class="r71"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r810"></div>
+            <div class="r89"></div>
+            <div class="r88"></div>
+            <div class="r87"></div>
+            <div class="r86"></div>
+            <div class="r85"></div>
+            <div class="r84"></div>
+            <div class="r83"></div>
+            <div class="r82"></div>
+            <div class="r81"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r910"></div>
+            <div class="r99"></div>
+            <div class="r98"></div>
+            <div class="r97"></div>
+            <div class="r96"></div>
+            <div class="r95"></div>
+            <div class="r94"></div>
+            <div class="r93"></div>
+            <div class="r92"></div>
+            <div class="r91"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r1010"></div>
+            <div class="r109"></div>
+            <div class="r108"></div>
+            <div class="r107"></div>
+            <div class="r106"></div>
+            <div class="r105"></div>
+            <div class="r104"></div>
+            <div class="r103"></div>
+            <div class="r102"></div>
+            <div class="r101"></div>
+        </div>
+
+         <div class="all4">
+            <div class="r1110"></div>
+            <div class="r119"></div>
+            <div class="r118"></div>
+            <div class="r117"></div>
+            <div class="r116"></div>
+            <div class="r115"></div>
+            <div class="r114"></div>
+            <div class="r113"></div>
+            <div class="r112"></div>
+            <div class="r111"></div>
+        </div>
+
+             <div class="all4">
+            <div class="r1210"></div>
+            <div class="r129"></div>
+            <div class="r128"></div>
+            <div class="r127"></div>
+            <div class="r126"></div>
+            <div class="r125"></div>
+            <div class="r124"></div>
+            <div class="r123"></div>
+            <div class="r122"></div>
+            <div class="r121"></div>
+        </div>
+
+        <div class="all4">
+            <div class="r1310"></div>
+            <div class="r139"></div>
+            <div class="r138"></div>
+            <div class="r137"></div>
+            <div class="r136"></div>
+            <div class="r135"></div>
+            <div class="r134"></div>
+            <div class="r133"></div>
+            <div class="r132"></div>
+            <div class="r131"></div>
+        </div>
+
+
+        <div class="all4">
+            <div class="r1410"></div>
+            <div class="r149"></div>
+            <div class="r148"></div>
+            <div class="r147"></div>
+            <div class="r146"></div>
+            <div class="r145"></div>
+            <div class="r144"></div>
+            <div class="r143"></div>
+            <div class="r142"></div>
+            <div class="r141"></div>
+        </div>
+
+         <div class="all4">
+            <div class="r1510"></div>
+            <div class="r159"></div>
+            <div class="r158"></div>
+            <div class="r157"></div>
+            <div class="r156"></div>
+            <div class="r155"></div>
+            <div class="r154"></div>
+            <div class="r153"></div>
+            <div class="r152"></div>
+            <div class="r151"></div>
+        </div>
+ 
+
+
+    </div>
+
+    </div>
+
+
+
+<div id="console"></div>
+
+
+
+
+</body>
+</html>
